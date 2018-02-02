@@ -6,7 +6,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS << brand unless BRANDS.unclude?(brand)
+    BRANDS << brand unless BRANDS.include?(brand)
   end
 
   # def size=(size)
